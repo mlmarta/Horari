@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(205, 229, 250);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+h1 {
+    margin-bottom: 5px;
+}
+h2 {
+    margin: 5px 0;
+    font-weight: normal;
+    padding: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #8f8989;
+    margin: 5px auto;
+}
+td {
+    color: black;
+    font-weight: bold;
+}
+
+/* Colores de las materias */
+.MP04 { background-color: #dbe1db; }
+.MP06 { background-color: #f7f0c4; }
+.MP07 { background-color: #f0d180; }
+.MP08 { background-color: #c3c5c4; }
+.MP10 { background-color: #e4f6ce; }
+.MP12 { background-color: #fcfcd4; }
+.Tutoria { background-color:  #b4b4b3; }
+.Blanco {background-color: rgb(171, 203, 231);}
+
+.legend td {
+    text-align: left;
+    padding: 5px 10px;
+}
+.centrar {
+    text-align: right;
+}
+.legend table tr:first-child(3) td {
+    background-color: rgb(212, 212, 186);
+  }
+  .legend table tr:nth-child(odd) {
+    background-color: rgb(212, 212, 186);
+  }
+  .legend table tr:last-child td {
+    background-color: rgb(212, 212, 186);
+  }
+  .legend table tr:nth-child(2) td {
+    background-color: rgb(187, 187, 148);
+  }
+  .legend table tr:nth-child(4) td {
+    background-color: rgb(187, 187, 148);
+  }
+  .legend table tr:nth-child(6) td {
+    background-color: rgb(187, 187, 148);
+  }
+  body {
+    background: linear-gradient(to right, #7ca0e2, #1c184d); /* Degradado de color */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
